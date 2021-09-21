@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     public void showToast(View view) {
         Toast toast = Toast.makeText(this,R.string.toast_message,Toast.LENGTH_SHORT);
         toast.show();
-        Log.d("MainActivity","Clicking");
+        //Log.d("MainActivity","Clicking");
     }
 
     public void countUp(View view) {
